@@ -1,4 +1,5 @@
 from os import system
+import transversa
 import traza
 import suma
 from tkinter import *
@@ -26,7 +27,9 @@ while menu != 6:
     elif menu == 4:
         None
     elif menu == 5:
-        None
+        transversa.transversa()
+        input()
+        system("cls")
     elif menu == 6:
         system("cls")
         print("Usted está saliendo del programa...")
