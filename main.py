@@ -1,4 +1,5 @@
 from os import system
+import multiplicacion
 import transversa
 import traza
 import suma
@@ -23,7 +24,9 @@ while menu != 6:
         input()
         system("cls")
     elif menu == 3:
-        None
+        multiplicacion.multiplicacion()
+        input()
+        system("cls")
     elif menu == 4:
         None
     elif menu == 5:
